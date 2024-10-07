@@ -11,6 +11,7 @@ import '@shared/typeorm';
 import uploadConfig from '@config/upload';
 import rateLimiter from '@shared/http/middlewares/rate.limiter';
 
+
 const app = express();
 
 app.use(cors());
