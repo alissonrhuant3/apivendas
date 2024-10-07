@@ -44,7 +44,6 @@ export default class SESMail {
         'AWS credentials are not defined. Please check your environment variables.',
       );
     }
-    console.log(accessKeyId, secretAccessKey)
 
     const ses = new SESClient({
       region: 'eu-north-1',
